@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-bold-straight/css/uicons-bold-straight.css'>
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-brands/css/uicons-brands.css'>
+
+  <style>
+    .img-nav {
+      max-height: 50px;
+      width: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="navbar container">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary w-100">
+        <div class="container-fluid d-flex align-items center">
+          <img class="img-nav" src="images/logo.png" class="img-fluid" alt="...">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="images/resume.pdf" download>Resume <i
+                    class="fi fi-bs-download"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section class=" d-flex  flex-lg-row flex-column justify-content-between align-items-center mb-5">
+        <div class="banner-left">
+          <h1>Hi!</h1>
+          <h1>I am Shirin</h1>
+          <h3 class="fw-normal">Web Developer | React Developer | Programmer </h3>
+          <p>I am an enthusiastic developer with experience in both frontend and backend frameworks. I have knowledge of
+            C++, PHP, MySQL, HTML, CSS, and Bootstrap.
+
+          </p>
+          <div class="social-icons fs-3 d-flex gap-4">
+            <i class="fi fi-brands-facebook"></i>
+            <i class="fi fi-brands-github"></i>
+            <i class="fi fi-brands-youtube"></i>
+          </div>
+        </div>
+        <div class="banner-right">
+          <img class="banner-img " src="images/women-pic.png" alt="">
+        </div>
+        <div class=""></div>
+      </section>
+    </div>
+  </header>
+  <main>
+    <section class="container">
+      <div class="portfolio d-flex justify-content-center">
+        <h2 class="portfolio">Portfolio</h2>
+      </div>
+      <div class="port flex-column flex-lg-row  d-flex justify-content-center">
+        <div class="port-left w-100 w-lg-50">
+          <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/coding.avif" class="d-block img-fluid w-100 " alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/coding2.avif" class="d-block img-fluid w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/coding5.avif" class="d-block img-fluid w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="port-right w-100 w-lg-50">
+          
+          <h2 class="text-programmer container w -5  ">Programmer  <a href="https://github.com/shirin-coder" class="text-decoration-none"> <i class="fi fi-brands-github"></i></a></h2>
+          <br>
+          <p class="details container font fw-semibold w-5"> With a keen interest in algorithmic problem-solving and
+            clean code practices, I continuously seek to improve my knowledge and stay updated with emerging
+            technologies. Whether it's developing robust back-end logic or crafting intuitive front-end interfaces,
+            I thrive in creating user-friendly and efficient digital solutions.
+          </p>
+          <br>
+          <div class="border1">
+            <div class="border border-success container">
+              <ul style="list-style-type: square">
+                <li>Build robust applications using C++ with efficient
+                  problem-solving strategies.</li>
+                <li>Create clean and maintainable code with
+                  Python for diverse projects.</li>
+                <li>Design responsive and engaging
+                  web interfaces using HTML and CSS.</li>
+
+              </ul>
+            </div>
+            <div class="btn container">
+              <button type="button" class="btn btn-outline-primary">C++</button>
+              <button type="button" class="btn btn-outline-secondary">PYTHON</button>
+              <button type="button" class="btn btn-outline-success">HTML</button>
+              <button type="button" class="btn btn-outline-danger">CSS</button>
+              <button type="button" class="btn btn-outline-warning">BOOTSTRAP</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <br>
+
+      <div class="port flex-column flex-lg-row  d-flex justify-content-center">
+        <div class="port-left w-100 w-lg-50">
+          <div id="carouselExample1" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/program2.avif" class="d-block img-fluid w-100 " alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/program.avif" class="d-block img-fluid w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/program3.avif" class="d-block img-fluid w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample1" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample1" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="port-right w-100 w-lg-50">
+          <h2 class="text-programmer container w -5  ">Web Developer <a href="https://github.com/shirin-coder" class="text-decoration-none"> <i class="fi fi-brands-github"></i></a></h2>
+          <br>
+          <p class="details container font fw-semibold w-5"> I thrive on building web solutions that not only look great
+            but deliver meaningful user experiences. Whether it's developing interactive interfaces or optimizing page
+            speed,
+            I'm always excited to push the boundaries of what's possible on the web.
+          </p>
+          <br>
+          <div class="border1">
+            <div class="border border-success container">
+              <ul style="list-style-type: square">
+                <li>Crafting websites that provide seamless user experiences across devices.</li>
+                <li>Writing maintainable and scalable code for long-term performance.</li>
+                <li>Leveraging my background in C++ and Python to solve complex challenges elegantly.</li>
+
+              </ul>
+            </div>
+            <div class="btn container">
+              <button type="button" class="btn btn-outline-primary">C++</button>
+              <button type="button" class="btn btn-outline-secondary">PYTHON</button>
+              <button type="button" class="btn btn-outline-success">HTML</button>
+              <button type="button" class="btn btn-outline-danger">CSS</button>
+              <button type="button" class="btn btn-outline-warning">BOOTSTRAP</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <section class="meaningful container d-flex flex-column flex-lg-row my-5">
+      <div class="meaningful-left w-100 w-lg-50">
+        <h3 class="mb-5">Expertise</h3>
+        <div class="expertise d-flex flex-wrap gap-2">
+          <button type="button" class="text-white fs-6 fw-bold"
+            style="background-color: #6c757d;width: 110px; border-color: #6c757d;">C++</button>
+          <button type="button" class="text-white fs-6 fw-bold"
+            style="background-color: #6c757d;width: 110px; border-color: #6c757d;">PYTHON</button>
+          <button type="button" class="text-white fs-6 fw-bold"
+            style="background-color: #6c757d;width: 110px; border-color: #6c757d;">HTML</button>
+          <button type="button" class="text-white  fs-6 fw-bold"
+            style="background-color: #6c757d; width: 110px; border-color: #6c757d;">CSS</button>
+          <button type="button" class="text-white fs-6 fw-bold"
+            style="background-color: #6c757d; width: 110px; border-color: #6c757d;">BOOTSTRAP</button>
+          <button type="button" class="text-white fs-6 fw-bold"
+            style="background-color: #6c757d; width: 110px; border-color: #6c757d;">DJANGO</button>
+        </div>
+
+        <h3 class="my-5">Comfortable</h3>
+        <div class="expertise d-flex flex-wrap gap-2">
+          <button type="button" class=" text-white fs-6 fw-bold"
+            style="background-color: #6c757d;width: 110px; border-color: #6c757d;">CSS</button>
+          <button type="button" class=" text-white  fs-6 fw-bold"
+            style="background-color: #6c757d;width: 110px; border-color: #6c757d;">C++</button>
+          <button type="button" class=" text-white fs-6 fw-bold"
+            style="background-color: #6c757d;width: 110px; border-color: #6c757d;">AWS</button>
+          <button type="button" class="text-white  fs-6 fw-bold"
+            style="background-color: #6c757d; width: 110px; border-color: #6c757d;">TYPESCRIPT</button>
+          <button type="button" class="text-white  fs-6 fw-bold"
+            style="background-color: #6c757d; width: 110px; border-color: #6c757d;">DOCKER</button>
+          <button type="button" class="text-white fs-6 fw-bold"
+            style="background-color: #6c757d; width: 110px; border-color: #6c757d;">SQL</button>
+        </div>
+
+        <h3 class="my-5">Familiar</h3>
+        <div class="expertise d-flex flex-wrap gap-2">
+          <button type="button" class=" text-white fs-6 fw-bold"
+            style="background-color: #6c757d;width: 110px; border-color: #6c757d;">C++</button>
+          <button type="button" class=" text-white  fs-6 fw-bold"
+            style="background-color: #6c757d;width: 110px; border-color: #6c757d;">PYTHON</button>
+          <button type="button" class="text-white fs-6 fw-bold w-fit"
+            style="background-color: #6c757d;width: fit-content; border-color: #6c757d;">NETWORKING</button>
+          <button type="button" class="text-white  fs-6 fw-bold"
+            style="background-color: #6c757d; width: 110px; border-color: #6c757d;">CLOUD COMPUTING</button>
+          <button type="button" class="text-white  fs-6 fw-bold"
+            style="background-color: #6c757d; width: 110px; border-color: #6c757d;">GRAPHICS DESIGN</button>
+          <button type="button" class="text-white fs-6 fw-bold"
+            style="background-color: #6c757d; width: 110px; border-color: #6c757d;">SEO</button>
+        </div>
+
+        <h3 class="my-5">Tools</h3>
+        <div class="expertise d-flex flex-wrap gap-2">
+          <button type="button" class=" text-white fs-6 fw-bold"
+            style="background-color: #6c757d;width: 110px; border-color: #6c757d;">VS CODE</button>
+          <button type="button" class=" text-white  fs-6 fw-bold"
+            style="background-color: #6c757d;width: 110px; border-color: #6c757d;">JIRA</button>
+          <button type="button" class="text-white fs-6 fw-bold w-fit"
+            style="background-color: #6c757d;width: fit-content; border-color: #6c757d;">TRELLO</button>
+          <button type="button" class="text-white  fs-6 fw-bold"
+            style="background-color: #6c757d; width: 110px; border-color: #6c757d;">GIT</button>
+        </div>
+      </div>
+      <div class="meaningful-right w-100 w-lg-50 d-flex justify-content-center align-items-center mt-5 mt-lg-0">
+        <div class="education text-center">
+          <h3 class="text-success">MY EDUCATION</h3>
+          <h4>B.Sc in Computer Science</h4>
+          <h5>Metropoliton University, Sylhet</h5>
+        </div>
+      </div>
+    </section>
+
+    <section class="container d-flex justify-content-center align-items-center my-3">
+      <div class="contact w-100 w-lg-25">
+        <h3>Contact with me</h3>
+        <form class="">
+          <div class="form-group mb-2">
+            <label for="formGroupExampleInput">Your Name</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your Name">
+          </div>
+          <div class="form-group mb-2">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group mb-2">
+            <label for="exampleFormControlTextarea1">Your Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary w-100">Submit</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="text-center my-2">
+    <hr>
+    <p>Copyright © 2024 | shiru</p>
+    <span>sylhet, bangladesh</span>
+    <div class="social-icons fs-3 d-flex gap-4 justify-content-center">
+      <i class="fi fi-brands-facebook"></i>
+      <i class="fi fi-brands-github"></i>
+      <i class="fi fi-brands-youtube"></i>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
